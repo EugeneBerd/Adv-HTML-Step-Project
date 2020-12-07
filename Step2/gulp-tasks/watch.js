@@ -7,6 +7,8 @@ const { minify } = require("./cleancss");
 const { series } = require("gulp");
 const gulp = require("gulp");
 const { minifyjs } = require("./minifyjs");
+const { fileinclude } = require("./fileinclude");
+
 
 const watchTask = () => {
   watch("./index.html", (cb) => {
