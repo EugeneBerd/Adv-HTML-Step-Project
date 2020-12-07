@@ -1,0 +1,13 @@
+.first-bg {
+  width: 100%;
+  @media (min-width: 800px) {
+    width: 768px;
+  }
+  @media (min-width: 1024px) {
+    width: 1004px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
+}
