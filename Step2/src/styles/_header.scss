@@ -143,8 +143,10 @@
   display: none;
   position: absolute;
   top: 0px;
-  margin-top: 111px;
-  width: 292px;
+  justify-self: center;
+  align-self: center;
+  margin: 103px auto;
+  width: calc(100% - 20px);
   background-color: #333333;
   z-index: 2;
   padding-left: 0px;
