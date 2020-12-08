@@ -1,37 +1,31 @@
 $font-m: Montserrat;
 $font-l: Lato;
+$purple: #8d81ac;
 
 .wrapper {
   position: relative;
 }
 
 .container {
-  width: 290px;
+  min-width: 320px;
   margin: 0 auto;
   position: relative;
+  padding: 0 10px 0 10px;
 }
-@media (min-width: 480px) {
+@media (min-width: 481px) {
   .container {
-    width: 450px;
+    min-width: 480px;
   }
 }
-@media (min-width: 640px) {
+
+@media (min-width: 993px) {
   .container {
-    width: 610px;
+    min-width: 993px;
   }
 }
-@media (min-width: 718px) {
+
+@media (min-width: 1201px) {
   .container {
-    width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-    width: 994px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1020;
+    width: 1200px;
   }
 }
