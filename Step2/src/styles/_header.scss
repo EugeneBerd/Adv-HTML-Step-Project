@@ -8,7 +8,7 @@
   //   margin-top: 40px;
   //   margin-bottom: 40px;
   // }
-  @media (min-width: 1201px) {
+  @media (min-width: 993px) {
     background-color: black;
   }
 }
@@ -24,8 +24,26 @@
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
+  a {
+    display: flex;
+    justify-content: center;
+    img:nth-child(2) {
+      display: none;
+    }
+    @media (min-width: 993px) {
+      &:hover img:first-child {
+        display: none;
+      }
+      &:hover span {
+        color: white;
+      }
+
+      &:hover img:nth-child(2) {
+        display: block;
+      }
+    }
+  }
+
   span {
     display: none;
 
@@ -40,7 +58,17 @@
       font-weight: 700;
     }
   }
+  @media (min-width: 993px) {
+    &:hover {
+      color: white;
+    }
+  }
 }
+
+.logo:hover .logo a {
+  display: none;
+}
+
 .menu__btn {
   display: flex;
   align-items: center;
@@ -98,8 +126,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 34px;
-  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 30px;
   @media (min-width: 481px) {
     // justify-content: center;
     padding-top: 22px;
@@ -145,10 +173,7 @@
   &:hover .main-menu__link {
     position: relative;
     color: $purple;
-    font-weight: 400;
-    @media (min-width: 993px) {
-      background-color: transparent;
-    }
+
     &::before {
       border-left: 8px solid #8d81ac;
       content: "";
@@ -159,6 +184,17 @@
       background-color: #8d81ac;
       left: 0;
       top: 12.5px;
+    }
+    @media (min-width: 481px) {
+      &::before {
+        display: none;
+      }
+      &:hover {
+        color: white;
+      }
+    }
+    @media (min-width: 993px) {
+      background-color: transparent;
     }
   }
 }
@@ -243,5 +279,9 @@
   padding: 9px 28px;
   @media (min-width: 993px) {
     padding: 9px 38px;
+    &:hover {
+      background-color: white;
+      color: $purple;
+    }
   }
 }

@@ -13,8 +13,37 @@
 // }
 
 .intro {
-  width: 1200px;
-  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 718px;
   background-image: url(../img/bg_1.png);
   background-position: center;
+  background-size: cover;
+  z-index: -1;
+  font-family: $font-m;
+  p {
+    padding: 0 10px;
+    position: relative;
+    top: 154px;
+    color: $purple;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  p:first-child {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  p:last-child {
+    color: #848e97;
+    font-size: 14px;
+  }
+  @media (min-width: 481px) {
+    height: 1014px;
+  }
 }
