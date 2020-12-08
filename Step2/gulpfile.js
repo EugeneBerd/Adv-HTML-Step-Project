@@ -11,7 +11,7 @@ const { minifyjs } = require("./gulp-tasks/minifyjs");
 const { fileinclude } = require("./gulp-tasks/fileinclude");
 
 exports.dev = parallel(serv, watch);
-exports.build = series(clean, styles, scripts, minifyjs, pref, minify, imgmin);
+exports.build = series(fileinclude, clean, styles, scripts, minifyjs, pref, minify, imgmin);
 exports.fileinclude = fileinclude;
 
 exports.css = series(styles, minify);
