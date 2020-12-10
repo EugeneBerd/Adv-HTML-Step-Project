@@ -1,3 +1,6 @@
+.section_editor{
+overflow: hidden;
+}
 .editor_text{
     text-align: center;
     font-family: $font-l;
@@ -21,16 +24,17 @@
 }
 .views_item_watch{
     margin-right: 10px;
+   
 }
 .views_items_star{
 
-    @media (min-width: 431px) {
+    @media (min-width: 480px) {
         margin-right: 10px;
       }
 }
 .views_items_fork{
-    margin-top: 10px;
-    @media (min-width: 440px) {
+    margin-top: 20px;
+    @media (min-width: 481px) {
         margin-top: 0px;
       }
    
@@ -40,14 +44,40 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 88px;
+    @media (min-width: 429px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 88px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      @media (min-width: 445px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 88px;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+      @media (min-width: 481px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 88px;
+      }
+
 }
 .views_info{
-    background: #F4F4F4;
-    border-left: 0.5px solid grey;
+    background: #f4f4f4;
+    border-left: .5px solid grey;
     padding-left: 8px;
     padding-right: 8px;
-    padding-top: 3px;
-    
+    display: flex;
+    align-items: center;
+}
+.img_fork{
+    padding-right: 3px;
 }
 .subs_amount{
         border-left: .5px solid grey;
@@ -86,14 +116,28 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
-    display: flex;
     align-items: center;
     color: #323232;
+    margin-top: 23px;
+    @media (min-width: 481px) {
+        display: flex;     
+      }
 }
 .editor_menu_block{
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 481px) {
+        display: flex;
+        align-items: center;
+        
+      }
+}
+.editor_menu_block_text{
+    @media (min-width: 481px) {
+        padding-left: 20px
+      }
+ 
 }
 .menu_block_text{
     font-family: $font-l;
@@ -104,7 +148,25 @@
     text-align: center;
     color: #848E97;
     margin-bottom: 42px;
+    @media (min-width: 481px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: left;
+      }
 }
+
 .editor_menu_image{
-    
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    position: relative;
+    left: 15%;
+    overflow: hidden;
+    @media (min-width: 480px) {
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        position: relative;
+        left: 15%;
+        overflow: hidden;
+      }
 }

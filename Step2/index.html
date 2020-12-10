@@ -60,7 +60,7 @@
   </header>
 <main>
   
-<section class="container ">
+<section class="container section_editor">
     <h1 class="section_editor_title">Revolutionary editor</h1>
     <p class="editor_text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim.
         Sed
@@ -75,7 +75,12 @@
             <span class="subs_amount">21,038</span>
         </div>
         <div class="views_items views_items_fork">
-            <a class="views_info" href="#">U+1F517 Fork </a>
+            <a class="views_info" href="#"><img class="img_fork" src="./dist/img/forked_item.png" alt="" width="14px"
+                    height="14px">
+                <span>
+                    Fork
+                </span>
+            </a>
             <span class="subs_amount">4,391</span>
         </div>
 
@@ -84,37 +89,52 @@
     <ul class="section_editor_menu">
         <li class="editor_menu_block">
             <img alt="" src="./dist/img/x1.png" width="111px" height="64px">
-            <h1 class="menu_block_title">Creatred to Make The Web Better</h1>
-            <p class="menu_block_text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate
-                dignissim. Sed id metus id
-                quam auctor molestie eget ut augue.</p>
+            <div class="editor_menu_block_text">
+                <h1 class="menu_block_title">Creatred to Make The Web Better</h1>
+                <p class="menu_block_text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet
+                    vulputate
+                    dignissim. Sed id metus id
+                    quam auctor molestie eget ut augue.</p>
+            </div>
         </li>
         <li class="editor_menu_block">
             <img alt="" src="./dist/img/x2.png" width="90px" height="80px">
-            <h1 class="menu_block_title">Incredibly Powerful Tool</h1>
-            <p class="menu_block_text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut
-                volutpat
-                massa placerat ac.
-                Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+            <div class="editor_menu_block_text">
+                <h1 class="menu_block_title">Incredibly Powerful Tool</h1>
+                <p class="menu_block_text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut
+                    volutpat
+                    massa placerat ac.
+                    Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+            </div>
         </li>
         <li class="editor_menu_block">
             <img alt="" src="./dist/img/x3.png" width="60px" height="84px">
-            <h1 class="menu_block_title">Experimental Stuff</h1>
-            <p class="menu_block_text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut
-                volutpat
-                massa placerat ac.
-                Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+            <div class="editor_menu_block_text">
+                <h1 class="menu_block_title">Experimental Stuff</h1>
+                <p class="menu_block_text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut
+                    volutpat
+                    massa placerat ac.
+                    Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                </p>
+            </div>
         </li>
         <li class="editor_menu_block">
             <img alt="" src="./dist/img/x4.png" width="71px" height="71px">
-            <h1 class="menu_block_title">Creatred to Make The Web Better</h1>
-            <p class="menu_block_text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut
-                volutpat
-                massa placerat ac.
-                Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+            <div class="editor_menu_block_text">
+                <h1 class="menu_block_title">Creatred to Make The Web Better</h1>
+                <p class="menu_block_text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut
+                    volutpat
+                    massa placerat ac.
+                    Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
+            </div>
         </li>
+
         <li class="editor_menu_block">
-            <img class="editor_menu_image" alt="" src="./dist/img/x5.png" width="317px" height="381px">
+            <picture class="editor_menu_image">
+                <source media="(max-width: 480px)" srcset="./dist/img/x5.png">
+                <source media="(min-width: 481px)" srcset="./dist/img/x5_2.png">
+                <img src="./dist/img/x5_2.png" alt="">
+            </picture>
         </li>
     </ul>
 </section><p>4</p>
