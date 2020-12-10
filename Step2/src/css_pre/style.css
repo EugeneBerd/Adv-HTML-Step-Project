@@ -293,10 +293,78 @@ a {
     .purple__button {
       padding: 9px 38px; } }
 
-.section_editor_menu {
-  overflow: auto; }
+.editor_text {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #323232;
+  padding-bottom: 36px; }
+
+.views_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.5px solid grey;
+  border-radius: 3px;
+  width: 133px;
+  height: 26px;
+  text-align: center; }
+
+.views_item_watch {
+  margin-right: 10px; }
+
+@media (min-width: 431px) {
+  .views_items_star {
+    margin-right: 10px; } }
+
+.views_items_fork {
+  margin-top: 10px; }
+  @media (min-width: 440px) {
+    .views_items_fork {
+      margin-top: 0px; } }
+
+.views {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 88px; }
+
+.views_info {
+  background: #F4F4F4;
+  border-left: 0.5px solid grey;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px; }
+
+.subs_amount {
+  border-left: .5px solid grey;
+  padding-left: 8px;
+  padding-right: 8px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 3px; }
 
 .section_editor_title {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #635C73;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 79.5px;
+  margin-bottom: 36px; }
+
+.section_editor_title_2 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -339,6 +407,16 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+
+.menu_block_text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #848E97;
+  margin-bottom: 42px; }
 
 .intro {
   width: 1200px;
