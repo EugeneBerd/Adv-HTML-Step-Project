@@ -85,7 +85,8 @@
   display: block;
   position: absolute;
   width: 26px;
-  height: 2px;
+  height: 3px;
+  border-radius: 5px;
   background-color: white;
   transition: transform 0.3s;
 }
@@ -93,8 +94,9 @@
 .menu__btn > span::before {
   display: block;
   position: absolute;
+  border-radius: 5px;
   width: 70%;
-  height: 2px;
+  height: 3px;
   background-color: white;
   transition: transform 0.3s;
   right: 0;
@@ -153,7 +155,7 @@
   @media (min-width: 481px) {
     display: flex;
     background-color: transparent;
-    width: 695px;
+    width: 90%;
     justify-content: space-between;
     position: static;
     align-items: center;
@@ -279,8 +281,10 @@
   font-weight: 700;
   border-radius: 40px;
   padding: 9px 28px;
-  @media (min-width: 993px) {
+  @media (min-width: 481px) {
     padding: 9px 38px;
+  }
+  @media (min-width: 993px) {
     &:hover {
       background-color: white;
       color: $purple;

@@ -29,3 +29,22 @@ $purple: #8d81ac;
     width: 1200px;
   }
 }
+
+.section_title {
+  font-family: $font-m;
+  font-size: 36px;
+  line-height: 48px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 53px;
+  font-weight: 700;
+  @media (min-width: 481px) {
+    margin-bottom: 33px;
+    margin-top: 35px;
+  }
+  @media (min-width: 660px) {
+    margin-bottom: 86px;
+    margin-top: 86px;
+  }
+}
