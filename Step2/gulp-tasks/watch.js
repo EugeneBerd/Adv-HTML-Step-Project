@@ -28,3 +28,4 @@ const watchTask = () => {
 };
 
 exports.watch = watchTask;
+
