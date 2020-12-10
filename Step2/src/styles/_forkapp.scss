@@ -13,8 +13,99 @@
 // }
 
 .intro {
-  width: 1200px;
-  height: 1200px;
-  background-image: url(../img/bg_1.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -90px;
+  width: 100%;
+  height: 615px;
+  background-image: url(../img/bg_small.png);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  font-family: $font-m;
+  p {
+    padding: 0 10px;
+    position: relative;
+    top: 150px;
+    color: $purple;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    @media (min-width: 481px) {
+      font-size: 24px;
+      text-transform: none;
+      font-family: $font-l;
+    }
+    @media (min-width: 993px) {
+      font-size: 30px;
+    }
+  }
+  p:first-child {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    @media (min-width: 481px) {
+      font-size: 72px;
+    }
+    @media (min-width: 993px) {
+      font-size: 82px;
+    }
+  }
+  p:last-child {
+    text-transform: uppercase;
+    margin-top: 14px;
+    color: #848e97;
+    font-size: 14px;
+    @media (min-width: 481) {
+      margin-top: 19px;
+    }
+    @media (min-width: 993px) {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 481px) {
+    height: 800px;
+  }
+  .container {
+    @media (min-width: 481px) {
+      margin-top: 20px;
+    }
+    @media (min-width: 993px) {
+      margin-top: 12px;
+    }
+  }
+  @media (min-width: 993px) {
+    height: 800px;
+    background-image: url(../img/bg_1.png);
+  }
+}
+
+.download_button {
+  position: absolute;
+  bottom: -7px;
+  a {
+    font-size: 18px;
+    @media (min-width: 481px) {
+      font-size: 21px;
+      padding: 19px 61px;
+    }
+  }
+  &:after {
+    position: absolute;
+    content: "Unlimited 30-Days Trial Period";
+    color: $purple;
+    top: 42px;
+    left: 32px;
+    font-size: 14px;
+    @media (min-width: 481px) {
+      top: 62px;
+      left: 84px;
+      font-size: 14px;
+    }
+  }
 }

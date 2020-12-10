@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;1,300;1,400;1,700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <link rel="stylesheet" href="./dist/css/styles.css" />
   <link rel="apple-touch-icon" sizes="57x57" href="./dist/img/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="./dist/img/favicon/apple-icon-60x60.png">
@@ -26,10 +25,10 @@
 </head>
 <body>
   
-  <header class="header">
+  <header class="header"><div class="wrapper">
     <div class="container">
       <nav><div  class="navigation">
-        <div class="logo"><a href=""><img src="./dist/img/forkio_logo.png" alt=""></a><span>ForkIO</span></div>
+        <div class="logo"><a href=""><img src="./dist/img/forkio_logo.png" alt=""><img src="./dist/img/forkio_logo2.png" alt=""><span>ForkIO</span></a></div>
         <div class="buynow"><a href="" class="purple__button">Buy Now</a></div>
         <div class="hamburger-menu">
           <input id="menu__toggle" type="checkbox" />
@@ -37,7 +36,7 @@
             <span></span>
           </label>
         </div>
-        <ul class="main-menu">
+        <ul id="menu" class="main-menu">
                     <li class="main-menu__item">
             <a href="#" class="main-menu__link">Overview</a>
           </li>
@@ -56,10 +55,10 @@
 
         </ul></div>
       </nav>
-    </div>
+    </div></div>
   </header>
 <main>
-  
+  <section><div class="intro"><div class="container"><p>Fork App</p><p>A real gamechanger in the world of web development</p><p>v. 2.8 For Mac and Windows</p></div><div class="download_button"><a href="" class="purple__button">Download For Free Now</a></div></div></section>
 <section class="container section_editor">
     <h1 class="section_editor_title">Revolutionary editor</h1>
     <p class="editor_text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim.
@@ -150,7 +149,11 @@
         </picture>
     </li>
 </div>
-</div><p>4</p>
+</div><section><div class="wrapper"><div class="testimonials"><div class="container"><p class="section_title">People Are Talking About Fork</p><div class="testimonials_entries">
+  <div class="testimonial_item"><img src="./dist/img/test1.png" alt=""><p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p></div><div class="testimonial_item"><img src="./dist/img/test2.png" alt=""><p>Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p></div><div class="testimonial_item"><img src="./dist/img/test3.png" alt=""><p>In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </p></div><div class="testimonial_item"><img src="./dist/img/test4.png" alt=""><p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p></div><div class="testimonial_item"><img src="./dist/img/test5.png" alt=""><p>Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus. </p></div><div class="testimonial_item"><img src="./dist/img/test6.png" alt=""><p>Fusce pharetra erat id odio blandit,
+    <span>nec</span> pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum. </p></div>
+</div><p class="testimonials_afterword">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+</div></div></div></section>
 <p>5</p>
 </main>
   <script src="./dist/js/script.js"></script>

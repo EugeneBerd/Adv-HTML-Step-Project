@@ -11,7 +11,119 @@ overflow: hidden;
     text-align: center;
     color: #323232;
     padding-bottom: 36px;
-    
+
+    @media (min-width: 526px) { 
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    @media (min-width: 583px) { 
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+    @media (min-width: 622px) { 
+    padding-left: 70px;
+    padding-right: 70px
+    }
+    @media (min-width: 669px) { 
+        padding-left: 80px;
+        padding-right: 80px
+        }
+    @media (min-width: 673px) { 
+    padding-left: 90px;
+    padding-right: 90px
+    } 
+    @media (min-width: 706px) { 
+    padding-left: 110px;
+    padding-right: 110px
+    }  
+    @media (min-width: 706px) { 
+    padding-left: 110px;
+    padding-right: 110px
+    } 
+    @media (min-width: 745px) { 
+    padding-left: 130px;
+    padding-right: 130px
+    }         
+    @media (min-width: 790px) { 
+    padding-left: 150px;
+    padding-right: 150px
+    }
+    @media (min-width: 820px) { 
+    padding-left: 170px;
+    padding-right: 170px
+    }
+    @media (min-width: 865px) { 
+    padding-left: 190px;
+    padding-right: 190px
+    }
+    @media (min-width: 901px) { 
+    padding-left: 210px;
+    padding-right: 210px
+    }
+    @media (min-width: 946px) { 
+    padding-left: 230px;
+    padding-right: 230px
+    }
+       @media (min-width: 985px) { 
+    padding-left: 250px;
+    padding-right: 250px
+    }
+       @media (min-width: 993px) { 
+        padding-left: 195px;
+        padding-right: 195px;
+    }
+    @media (min-width: 999px) {
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+      @media (min-width: 999px) {
+    padding-left: 205px;
+    padding-right: 205px;
+    }
+    @media (min-width: 1013px) {
+    padding-left: 210px;
+    padding-right: 210px;
+    }
+      @media (min-width: 1017px) {
+    padding-left: 210px;
+    padding-right: 210px;
+    }
+      @media (min-width: 1032px) {
+    padding-left: 220px;
+    padding-right: 220px;
+    }
+         @media (min-width: 1050px) {
+    padding-left: 230px;
+    padding-right: 230px;
+    }
+         @media (min-width: 1071px) {
+    padding-left: 240px;
+    padding-right: 240px;
+    }
+       @media (min-width: 1092px) {
+    padding-left: 250px;
+    padding-right: 250px;
+    }
+      @media (min-width: 1107px) {
+        padding-left: 260px;
+        padding-right: 260px;
+        }
+        @media (min-width: 1128px) {
+            padding-left: 270px;
+            padding-right: 270px;
+            }
+       @media (min-width: 1152px) {
+    padding-left: 280px;
+    padding-right: 280px;
+       }
+        @media (min-width: 1167px) {
+    padding-left: 290px;
+    padding-right: 290px;
+       }
+      @media (min-width: 1194px) {
+    padding-left: 300px;
+    padding-right: 300px;
+    }
 }
 
 .views_items {
@@ -28,7 +140,7 @@ overflow: hidden;
 }
 .views_items_star{
 
-    @media (min-width: 480px) {
+    @media (min-width: 481px) {
         margin-right: 10px;
       }
 }
@@ -127,6 +239,25 @@ overflow: hidden;
         flex-direction: column;
       }
 }
+.menu_block_text{
+    font-family: $font-l;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #848E97;
+    margin-bottom: 42px;
+    
+    @media (min-width: 481px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: left;
+        margin-bottom: 0;
+        padding: 0;
+      }
+}
 .img_container{
     @media (min-width: 481px) {
         width: 111px;
@@ -156,6 +287,8 @@ overflow: hidden;
       }
       @media (min-width: 993px) {
         flex-direction: column;
+        width: 60%;
+        margin-left: 30px;
       }
 }
 .editor_menu_block_text{
@@ -164,23 +297,7 @@ overflow: hidden;
       }
  
 }
-.menu_block_text{
-    font-family: $font-l;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    color: #848E97;
-    margin-bottom: 42px;
-    @media (min-width: 481px) {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: left;
-        margin-bottom: 0;
-      }
-}
+
 
 .editor_menu_image{
     background-repeat: no-repeat;
@@ -202,9 +319,10 @@ overflow: hidden;
       @media (min-width: 936px) {
         left: 30%;
       }   
-      @media (min-width: 1200px) {
-        left: 40%;
-      }
+      @media (min-width: 993px) {
+        left: 1%;
+      }   
+    
 
 }
 .active_tittle{
