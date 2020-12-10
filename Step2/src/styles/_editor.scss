@@ -81,6 +81,10 @@ overflow: hidden;
     @media (min-width: 481px) { 
         padding-left: 20px;
     }
+    @media (min-width: 993px) { 
+    background: #F4F4F4;
+        padding-top: 102px;
+    }
 }
 .section_editor_title{
     font-family: $font-m;
@@ -98,12 +102,15 @@ overflow: hidden;
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #8D81AC;
+    @media (min-width: 993px) { 
+        padding-left: 140px;
+    }
 }
+
 .menu_block_title{
     font-family: $font-m;
     font-style: normal;
@@ -138,6 +145,19 @@ overflow: hidden;
         margin-bottom: 60px;
       }
 }
+.editor_menu_block_picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: 481px) {
+        align-items: end;
+        flex-direction: inherit;
+        margin-bottom: 60px;
+      }
+      @media (min-width: 993px) {
+        flex-direction: column;
+      }
+}
 .editor_menu_block_text{
     @media (min-width: 481px) {
         padding-left: 20px
@@ -158,6 +178,7 @@ overflow: hidden;
         flex-wrap: wrap;
         justify-content: center;
         text-align: left;
+        margin-bottom: 0;
       }
 }
 
@@ -171,5 +192,45 @@ overflow: hidden;
         align-items: flex-end;
         position: relative;
         left: 15%;
+      }
+      @media (min-width: 828px) {
+        left: 20%;
+      }
+      @media (min-width: 882px) {
+        left: 25%;
+      }
+      @media (min-width: 936px) {
+        left: 30%;
+      }   
+      @media (min-width: 1200px) {
+        left: 40%;
+      }
+
+}
+.active_tittle{
+    display: flex;
+    @media (min-width: 993px) {
+        display: none;
+    }
+}
+.hide_tittle{
+      display: none;
+      @media (min-width: 993px) {
+        display: flex;
+        margin-top: 94px;
+        font-size: 48px;
+        line-height: 50px;
+        padding-left: 0;
+    }
+}
+.second_section_edit{
+    @media (min-width: 993px) {
+        background: #F4F4F4;
+    }
+}
+.sectiond_editor_menu_container{
+    
+    @media (min-width: 993px) {
+        display: flex;
       }
 }
