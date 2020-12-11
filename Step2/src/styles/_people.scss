@@ -15,7 +15,7 @@
   // z-index: -1;
   font-family: $font-m;
   @media (min-width: 481px) {
-    background-image: url(../img/testmonials-bg1.png);
+    // background-image: url(../img/testmonials-bg1.png);
     height: 920px;
 
     background-size: cover;
@@ -38,6 +38,7 @@
   font-family: $font-l;
   font-size: 14px;
   line-height: 20px;
+  z-index: 2;
   &:after {
     position: absolute;
     content: "";
