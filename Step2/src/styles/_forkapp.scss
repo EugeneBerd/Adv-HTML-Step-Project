@@ -24,7 +24,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -1;
+  // z-index: -1;
   font-family: $font-m;
   p {
     padding: 0 10px;
@@ -51,9 +51,11 @@
     margin-bottom: 24px;
     @media (min-width: 481px) {
       font-size: 72px;
+      margin-bottom: 44px;
     }
     @media (min-width: 993px) {
       font-size: 82px;
+      margin-top: 35px;
     }
   }
   p:last-child {
@@ -70,6 +72,7 @@
   }
   @media (min-width: 481px) {
     height: 800px;
+    background-image: url(../img/bg_1.png);
   }
   .container {
     @media (min-width: 481px) {
@@ -81,7 +84,7 @@
   }
   @media (min-width: 993px) {
     height: 800px;
-    background-image: url(../img/bg_1.png);
+    background-image: url(../img/bg_1200.png);
   }
 }
 
@@ -95,6 +98,7 @@
       padding: 19px 61px;
     }
   }
+
   &:after {
     position: absolute;
     content: "Unlimited 30-Days Trial Period";
