@@ -42,9 +42,15 @@ $purple: #8d81ac;
   @media (min-width: 481px) {
     margin-bottom: 33px;
     margin-top: 35px;
+    font-size: 42px;
   }
   @media (min-width: 660px) {
     margin-bottom: 86px;
     margin-top: 86px;
+  }
+  @media (min-width: 993px) {
+    margin-bottom: 72px;
+    margin-top: 86px;
+    font-size: 48px;
   }
 }

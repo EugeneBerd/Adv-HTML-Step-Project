@@ -25,7 +25,7 @@
     // background-size: auto 882px;
   }
   @media (min-width: 993px) {
-    height: 769px;
+    height: 799px;
     // background-size: auto 769px;
   }
 }
@@ -50,12 +50,23 @@
     @media (min-width: 481px) {
       width: 73%;
     }
+    @media (min-width: 993px) {
+      width: 780px;
+      margin: 0 auto;
+      bottom: -15px;
+    }
   }
   @media (min-width: 481px) {
     font-size: 13px;
   }
   @media (min-width: 600px) {
     font-size: 14px;
+  }
+  @media (min-width: 993px) {
+    width: 887px;
+    margin: 0 auto;
+
+    padding: 0 0;
   }
 }
 .testimonials_entries {
@@ -80,9 +91,10 @@
   @media (min-width: 993px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    grid-gap: 100px 7%;
     justify-items: center;
-    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 100px;
   }
 }
 
