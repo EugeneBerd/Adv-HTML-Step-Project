@@ -1,0 +1,60 @@
+$font-m: Montserrat;
+$font-l: Lato;
+$purple: #8d81ac;
+
+.wrapper {
+  position: relative;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+@media (min-width: 481px) {
+  .container {
+    min-width: 480px;
+  }
+}
+
+@media (min-width: 993px) {
+  .container {
+    min-width: 993px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.section_title {
+  font-family: $font-m;
+  font-size: 36px;
+  line-height: 48px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 53px;
+  font-weight: 700;
+  @media (min-width: 481px) {
+    margin-bottom: 33px;
+    margin-top: 35px;
+    font-size: 42px;
+  }
+  @media (min-width: 660px) {
+    margin-bottom: 86px;
+    margin-top: 86px;
+  }
+  @media (min-width: 993px) {
+    margin-bottom: 72px;
+    margin-top: 86px;
+    font-size: 48px;
+  }
+}
