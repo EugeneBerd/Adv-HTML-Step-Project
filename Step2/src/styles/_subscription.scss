@@ -1,6 +1,6 @@
 .section_subs_price{
     font-family: $font-m;
-    background-image: url(backgrnd_subs.png);;
+    background-image: url(../dist/img/backgrnd_subs.png);
 }
 .Price_main_title{
     font-style: normal;
@@ -10,14 +10,16 @@
     display: flex;
     align-items: center;
     text-align: center;
+    color: #FFFFFF;
 }
 .price_block{
         width: 257px;
         height: 457px;
-        opacity: 0.11;
+        background: #FFFFFF;
 }
 .offer_name_container{
-        opacity: 0.06;
+    mix-blend-mode: normal;
+    opacity: 0.06;
 }
 .offer_name{
     font-family: $font-m;
@@ -30,6 +32,7 @@
     text-align: center;
     text-transform: uppercase;
     padding: 36px 60px;
+    color: #FFFFFF;
 }
 .offers_price{
     font-style: normal;

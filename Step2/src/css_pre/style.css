@@ -882,7 +882,7 @@ a {
 
 .section_subs_price {
   font-family: Montserrat;
-  background-image: url(backgrnd_subs.png); }
+  background-image: url(../dist/img/backgrnd_subs.png); }
 
 .Price_main_title {
   font-style: normal;
@@ -895,14 +895,16 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  color: #FFFFFF; }
 
 .price_block {
   width: 257px;
   height: 457px;
-  opacity: 0.11; }
+  background: #FFFFFF; }
 
 .offer_name_container {
+  mix-blend-mode: normal;
   opacity: 0.06; }
 
 .offer_name {
@@ -919,7 +921,8 @@ a {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  padding: 36px 60px; }
+  padding: 36px 60px;
+  color: #FFFFFF; }
 
 .offers_price {
   font-style: normal;
