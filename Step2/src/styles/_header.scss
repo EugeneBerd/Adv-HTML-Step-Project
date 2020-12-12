@@ -2,7 +2,8 @@
   min-width: 100%;
   top: 0;
   left: 0;
-
+  z-index: 3;
+  position: relative;
   background-color: #27262a;
   // @media (min-width: 481px) {
   //   margin-top: 40px;
@@ -14,6 +15,7 @@
 }
 
 .hamburger-menu {
+  z-index: 3;
   input {
     opacity: 0;
     display: none;
@@ -24,6 +26,7 @@
 }
 
 .logo {
+  z-index: 3;
   a {
     display: flex;
     justify-content: center;
@@ -78,7 +81,7 @@
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 3;
 } /* добавляем "гамбургер" */
 .menu__btn > span,
 .menu__btn > span::after {
@@ -130,6 +133,7 @@
   align-items: center;
   padding-top: 32px;
   padding-bottom: 30px;
+  z-index: 3;
   @media (min-width: 481px) {
     // justify-content: center;
     padding-top: 22px;
@@ -228,7 +232,7 @@
   }
 }
 
-.main-menu__link::hover {
+.main-menu__link::hover::active {
   position: relative;
   color: $purple;
   font-weight: 400;
@@ -267,6 +271,7 @@
 }
 
 .buynow {
+  z-index: 3;
   @media (min-width: 993px) {
     order: 1;
     margin-left: 48px;
