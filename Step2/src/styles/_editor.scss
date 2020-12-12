@@ -195,6 +195,8 @@
   @media (min-width: 993px) {
     background: #f4f4f4;
     padding-top: 102px;
+    margin-top: 0px;
+    padding-right: 0;
   }
 }
 .section_editor_title {
@@ -281,6 +283,9 @@
     flex-direction: inherit;
     margin-bottom: 60px;
   }
+  @media (min-width: 1200px) {
+    margin-bottom: 35px;
+  }
 }
 .editor_menu_block_picture {
   display: flex;
@@ -293,12 +298,14 @@
   @media (min-width: 993px) {
     flex-direction: column;
     width: 60%;
-    margin-left: 30px;
   }
 }
 .editor_menu_block_text {
   @media (min-width: 481px) {
     padding-left: 20px;
+  }
+  @media (min-width: 993px) {
+    padding-left: 10px;
   }
 }
 
@@ -307,6 +314,7 @@
   align-items: flex-end;
   position: relative;
   left: 15%;
+  overflow: visible;
   @media (min-width: 480px) {
     background-repeat: no-repeat;
     align-items: flex-end;
@@ -325,6 +333,9 @@
   @media (min-width: 993px) {
     left: 1%;
   }
+  @media (min-width: 1200px) {
+    left: 1%;
+  }
 }
 .active_tittle {
   display: flex;
@@ -337,9 +348,10 @@
   @media (min-width: 993px) {
     display: flex;
     margin-top: 94px;
+    margin-bottom: 0;
     font-size: 48px;
     line-height: 50px;
-    padding-left: 0;
+    padding-left: 25px;
   }
 }
 .second_section_edit {
