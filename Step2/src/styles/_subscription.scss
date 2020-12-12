@@ -113,6 +113,9 @@
     position: relative;
     font-size: 60px;
     font-weight: 700;
+    &::first-letter {
+      font-weight: 400;
+    }
 
     p:last-child {
       font-size: 14px;
