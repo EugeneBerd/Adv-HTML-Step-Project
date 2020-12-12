@@ -9,7 +9,7 @@
     "build": "gulp build",
     "html": "gulp htmls"
   },
-  "author": "Berd",
+  "author": "Berdnikov, Kovalskiy",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
