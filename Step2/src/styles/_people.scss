@@ -2,22 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // position: absolute;
-  // top: 0;
   width: 100%;
   height: 1650px;
   background-image: url(../img/testmonials-bg1.png),
     url(../img/testmonials-bg2.png);
   background-size: auto 769px, auto 100%;
   background-position: center top, top 719px left 0;
-  // background-size: cover;
   background-repeat: no-repeat;
-  // z-index: -1;
   font-family: $font-m;
   @media (min-width: 481px) {
-    // background-image: url(../img/testmonials-bg1.png);
     height: 920px;
-
     background-size: cover;
   }
   @media (min-width: 690px) {
@@ -26,11 +20,9 @@
 
   @media (min-width: 740px) {
     height: 842px;
-    // background-size: auto 882px;
   }
   @media (min-width: 993px) {
     height: 799px;
-    // background-size: auto 769px;
   }
 }
 
@@ -79,7 +71,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // margin-bottom: 45px;
   @media (min-width: 481px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -133,6 +124,5 @@
   }
   @media (min-width: 520px) {
     width: 90%;
-    // margin-bottom: 45px;
   }
 }

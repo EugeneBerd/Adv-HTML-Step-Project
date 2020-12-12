@@ -484,11 +484,13 @@ h1 {
 
 .views_info {
   background: #f4f4f4;
-  border-left: 0.5px solid grey;
+  font-family: Lato;
   padding-left: 8px;
   padding-right: 8px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700; }
 
 .img_fork {
   padding-right: 3px; }

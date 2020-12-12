@@ -1,17 +1,3 @@
-// .first-bg {
-//   width: 100%;
-//   @media (min-width: 800px) {
-//     width: 768px;
-//   }
-//   @media (min-width: 1024px) {
-//     width: 1004px;
-//   }
-
-//   @media (min-width: 1200px) {
-//     width: 1170px;
-//   }
-// }
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -24,7 +10,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  // z-index: -1;
   font-family: $font-m;
   p {
     padding: 0 10px;

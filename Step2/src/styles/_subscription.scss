@@ -6,10 +6,7 @@
   height: 2200px;
   background-image: url(../img/testmonials-bg2.png);
   background-size: auto 100%;
-  // background-position: center top, top 719px left 0;
-  // background-size: cover;
   background-repeat: no-repeat;
-  // z-index: -1;
   font-family: $font-m;
   @media (min-width: 481px) {
     background-image: url(../img/subs1.png);
@@ -40,9 +37,6 @@
       margin-top: 138px;
     }
   }
-  // @media (min-width: 993px) {
-  //   margin-top: 30px;
-  // }
 }
 
 .subscription_variants {
@@ -50,9 +44,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // height: 457px;
   color: white;
-  // margin-bottom: 45px;
   > div:nth-child(3) {
     background-color: #463048;
     width: 300px;
@@ -83,9 +75,6 @@
     justify-items: center;
     align-items: center;
   }
-  // @media (min-width: 510px) {
-  //   margin-bottom: 20px;
-  // }
   @media (min-width: 590px) {
     grid-template-columns: 257px 257px;
     grid-gap: 25px 25px;
@@ -152,9 +141,6 @@
     height: 58px;
     padding-top: 25px;
   }
-  // > div:nth-child(3) p {
-  //   padding-top: 5px;
-  // }
   > div:nth-child(4) {
     background-color: rgba(255, 255, 255, 0.15);
     margin-bottom: 67px;
@@ -169,7 +155,6 @@
     }
   }
   p {
-    // line-height: 24px;
     text-align: center;
   }
   @media (min-width: 481px) {
