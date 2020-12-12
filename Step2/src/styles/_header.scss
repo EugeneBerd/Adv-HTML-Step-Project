@@ -221,11 +221,14 @@
   line-height: 22px;
   @media (min-width: 481px) {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     color: $purple;
     padding-left: 0px;
     padding-top: 0px;
     padding-bottom: 10px;
+  }
+  @media (min-width: 768px) {
+    font-size: 16px;
   }
   @media (min-width: 993px) {
     padding-bottom: 0px;

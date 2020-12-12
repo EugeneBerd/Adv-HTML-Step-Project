@@ -20,8 +20,12 @@
 
     background-size: cover;
   }
-  @media (min-width: 590px) {
-    height: 882px;
+  @media (min-width: 690px) {
+    height: 870px;
+  }
+
+  @media (min-width: 740px) {
+    height: 842px;
     // background-size: auto 882px;
   }
   @media (min-width: 993px) {
