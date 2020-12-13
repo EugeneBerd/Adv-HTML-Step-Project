@@ -544,7 +544,8 @@ h1 {
   color: #8d81ac; }
   @media (min-width: 993px) {
     .section_editor_title_2 {
-      padding-left: 140px; } }
+      padding: 0 0 0 20px;
+      justify-content: start; } }
 
 .menu_block_title {
   font-family: Montserrat;
@@ -611,7 +612,8 @@ h1 {
   @media (min-width: 993px) {
     .editor_menu_block_picture {
       flex-direction: column;
-      width: 60%; } }
+      width: 60%;
+      display: block; } }
 
 @media (min-width: 481px) {
   .editor_menu_block_text {
@@ -664,7 +666,10 @@ h1 {
       margin-bottom: 0;
       font-size: 48px;
       line-height: 50px;
-      padding-left: 25px; } }
+      padding-left: 7px; } }
+  @media (min-width: 1030px) {
+    .hide_tittle {
+      padding-left: 20px; } }
 
 @media (min-width: 993px) {
   .second_section_edit {

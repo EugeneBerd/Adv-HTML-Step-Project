@@ -227,7 +227,8 @@
   text-align: center;
   color: #8d81ac;
   @media (min-width: 993px) {
-    padding-left: 140px;
+    padding: 0 0 0 20px;
+    justify-content: start;
   }
 }
 
@@ -298,6 +299,7 @@
   @media (min-width: 993px) {
     flex-direction: column;
     width: 60%;
+    display: block;
   }
 }
 .editor_menu_block_text {
@@ -351,7 +353,10 @@
     margin-bottom: 0;
     font-size: 48px;
     line-height: 50px;
-    padding-left: 25px;
+    padding-left: 7px;
+  }
+  @media (min-width: 1030px) {
+    padding-left: 20px;
   }
 }
 .second_section_edit {
