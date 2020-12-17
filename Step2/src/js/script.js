@@ -20,10 +20,6 @@ inside.addEventListener("click", function (e) {
   e.stopPropagation();
 });
 
-if (window.matchMedia("(min-width: 481px)").matches) {
-  console.log("sss");
-}
-
 let mql = window.matchMedia("(min-width: 481px)");
 
 function screenTest(e) {
