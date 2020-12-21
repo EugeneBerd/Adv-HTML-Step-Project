@@ -177,6 +177,7 @@
 }
 
 .main-menu__item {
+  border-bottom: 2px solid rgb(52, 52, 52);
   &:active,
   &:hover .main-menu__link {
     position: relative;
@@ -291,9 +292,11 @@
     padding: 9px 38px;
   }
   @media (min-width: 993px) {
+    border: 2px solid transparent;
     &:hover {
       background-color: white;
       color: $purple;
+      border: 2px solid $purple;
     }
   }
 }

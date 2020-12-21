@@ -210,32 +210,34 @@ h1 {
       justify-content: space-between;
       margin: 0 0 0 auto; } }
 
-.main-menu__item:active,
-.main-menu__item:hover .main-menu__link {
-  position: relative;
-  color: #8d81ac; }
-  .main-menu__item:active::before,
-  .main-menu__item:hover .main-menu__link::before {
-    border-left: 8px solid #8d81ac;
-    content: "";
-    display: block;
-    position: absolute;
-    width: 8px;
-    height: 53px;
-    background-color: #8d81ac;
-    left: 0;
-    top: 12.5px; }
-  @media (min-width: 481px) {
+.main-menu__item {
+  border-bottom: 2px solid #343434; }
+  .main-menu__item:active,
+  .main-menu__item:hover .main-menu__link {
+    position: relative;
+    color: #8d81ac; }
     .main-menu__item:active::before,
     .main-menu__item:hover .main-menu__link::before {
-      display: none; }
-    .main-menu__item:active:hover,
-    .main-menu__item:hover .main-menu__link:hover {
-      color: white; } }
-  @media (min-width: 993px) {
-    .main-menu__item:active,
-    .main-menu__item:hover .main-menu__link {
-      background-color: transparent; } }
+      border-left: 8px solid #8d81ac;
+      content: "";
+      display: block;
+      position: absolute;
+      width: 8px;
+      height: 53px;
+      background-color: #8d81ac;
+      left: 0;
+      top: 12.5px; }
+    @media (min-width: 481px) {
+      .main-menu__item:active::before,
+      .main-menu__item:hover .main-menu__link::before {
+        display: none; }
+      .main-menu__item:active:hover,
+      .main-menu__item:hover .main-menu__link:hover {
+        color: white; } }
+    @media (min-width: 993px) {
+      .main-menu__item:active,
+      .main-menu__item:hover .main-menu__link {
+        background-color: transparent; } }
 
 .main-menu__link {
   font-size: 26px;
@@ -314,9 +316,12 @@ h1 {
     .purple__button {
       padding: 9px 38px; } }
   @media (min-width: 993px) {
-    .purple__button:hover {
-      background-color: white;
-      color: #8d81ac; } }
+    .purple__button {
+      border: 2px solid transparent; }
+      .purple__button:hover {
+        background-color: white;
+        color: #8d81ac;
+        border: 2px solid #8d81ac; } }
 
 .section_editor {
   overflow: hidden; }
